@@ -1,0 +1,66 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Martel:wght@200;300;400;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #012340;
+    width: 100%;
+}
+
+.fbi-decal {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-top: 180px;
+    opacity: 20%;
+}
+
+.header-container {
+    background: #023E73;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-label {
+    color: white;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.main-container {
+    /* max-width: 1350px; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-section {
+    max-width: 1350px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ================================================================================== */
+
+
+.caixa {
+    background: red;
+    width: 200px;
+    height: 55px;
+}
+
+
